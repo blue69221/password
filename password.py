@@ -1,7 +1,7 @@
 key = 'a123456'
 i = 3
 
-while True:
+while i > 0:
     password = input('請輸入使用密碼：')
     if password == key:
         print('登入成功')
