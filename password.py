@@ -11,6 +11,7 @@ while i > 0:
         print(f'密碼錯誤! 還有 {i} 次機會')
         if i == 0:
             print('密碼錯誤3次，請洽詢相關人員')
+            break
 
 
 
